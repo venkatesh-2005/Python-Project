@@ -20,7 +20,7 @@ plt.title('Sales Trends Over Time')
 plt.xlabel('Year')
 plt.ylabel('Total Sales')
 plt.show()
-
+#
 #Objective 3: Identify top-selling candy products
 top_products = data.groupby('Product Name')['Sales'].sum().sort_values(ascending=False)
 print("\nTop-Selling Candy Products:")
