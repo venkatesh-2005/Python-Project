@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 data = pd.read_csv("E:\\PYTHON PROGRAMS VS\\Candy_Sales.csv")
-
+#
 #Objective1: Calculate total and average sales
 total_sales = data['Sales'].sum()
 average_sales = data['Sales'].mean()
