@@ -8,7 +8,7 @@ total_sales = data['Sales'].sum()
 average_sales = data['Sales'].mean()
 print(f"Total Sales: {total_sales}")
 print(f"Average Sales: {average_sales}")
-
+#
 #Objective 2: Analyze sales trends over time
 data['Order Date'] = pd.to_datetime(data['Order Date'])
 data['Year'] = data['Order Date'].dt.year
