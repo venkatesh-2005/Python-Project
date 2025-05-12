@@ -13,7 +13,7 @@ print(f"Average Sales: {average_sales}")
 data['Order Date'] = pd.to_datetime(data['Order Date'])
 data['Year'] = data['Order Date'].dt.year
 sales_trend = data.groupby('Year')['Sales'].sum()
-
+#
 plt.figure(figsize=(10, 6))
 plt.plot(sales_trend.index, sales_trend.values, marker='o')
 plt.title('Sales Trends Over Time')
